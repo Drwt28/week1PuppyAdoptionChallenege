@@ -128,7 +128,7 @@ fun Greeting(name: String,navigator: NavHostController) {
             TopAppBar(
 
                 backgroundColor = Color.White,
-                title = {Text("Puppies List",style = MaterialTheme.typography.h6.copy(color = Color.Black))},
+                title = {Text("Puppy Adoption",style = MaterialTheme.typography.h6.copy(color = Color.Black))},
                 elevation = 0.dp
 
 
@@ -150,6 +150,11 @@ fun Greeting(name: String,navigator: NavHostController) {
                     SingleIconItem(imageVector = Icons.Filled.Filter)
 
                 }
+            }
+
+
+            item{
+                Text("Puppies",style = MaterialTheme.typography.h4.copy(letterSpacing = 4.sp))
             }
 
             items(Puppys.size){
