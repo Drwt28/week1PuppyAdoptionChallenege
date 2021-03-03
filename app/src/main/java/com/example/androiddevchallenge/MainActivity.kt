@@ -65,10 +65,6 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.painter.Painter
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.layout.ContentScale
-import androidx.compose.ui.layout.Layout
-import androidx.compose.ui.platform.LocalDensity
-import androidx.compose.ui.res.stringResource
-import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.Constraints
 import androidx.compose.ui.unit.dp
@@ -85,7 +81,6 @@ import com.example.puppyproject.Model.Puppys
 import com.example.puppyproject.ui.theme.PuppyProjectTheme
 import dev.chrisbanes.accompanist.coil.CoilImage
 import org.intellij.lang.annotations.JdkConstants
-import java.util.*
 import kotlin.math.max
 import kotlin.math.min
 
@@ -112,7 +107,6 @@ class MainActivity : AppCompatActivity() {
     }
 }
 
-var list = Arrays.asList("Hello","Bhanu","Deepanshu")
 
 
 @Composable
